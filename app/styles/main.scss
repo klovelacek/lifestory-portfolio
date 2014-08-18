@@ -1,0 +1,116 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300|Roboto+Condensed:400,700|Roboto:400,500,700|@import|Vollkorn:400,700);
+@import '_partial.scss';
+@import '_box-styles.scss';
+@import '_images.scss';
+@import '_footer.scss';
+@import '_animate.scss';
+// Custom Styles
+
+body {
+  background-attachment: fixed;
+  background-image: url("/images/halftoneDots.png");
+  background-color: #F2D268;
+  min-width: 1000;
+}
+/*------------HEADER INTRO PANEL------- */
+
+header {
+  /* Set rules to fill background */
+  height: 760px;
+  width: 100%;
+}
+
+.heroImg {
+  margin-left: 35%;
+  margin-top: 54px;
+  height: 44em;
+  clear: right;
+}
+
+ h1 {
+   font-family: 'Oswald', Helvetica, sans-serif;
+   font-size: 981%;
+   color: rgba(204, 44, 4, 0.75);
+   text-shadow: 4px 5px 3px rgba(237, 110, 17, 0.50);
+   text-transform: uppercase;
+   font-weight: 800;
+   line-height: 1em;
+   margin-top: 1.25em;
+   position: absolute;
+   z-index: 44;
+ }
+
+ h2 {
+   font-family: 'Oswald', Helvetica, sans-serif;
+   font-size: 541.5%;
+   color: rgba(204, 44, 4, 0.75);
+   text-shadow: 3px 3px 3px rgba(237, 110, 17, 0.75);
+   text-transform: uppercase;
+   font-weight: 800;
+   line-height: 1em;
+   margin-top: 4.25em;
+   position: absolute;
+   z-index: 44;
+ }
+
+ /*------------HEADER INTRO PANEL------- */
+
+/* ------------MAIN CONTENT------------- */
+
+.contentWrap {
+  margin: 0 auto;
+  width: 965px;
+}
+
+.scrollArrow {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  margin: 0 auto 80 auto;
+  text-align: center;
+}
+
+.textRt {
+  @include bulletpointRt;
+}
+
+.textLft {
+  @include bulletpointLft;
+}
+
+.doohikieRt {
+  float: left;
+}
+
+.doohikieLft {
+  left: 272px;
+  position: relative;
+  top: -66px;
+}
+
+.bulletpointRt {
+  height: 80px;
+  width: 235px;
+  margin-top: 74px;
+  margin-left: 483px;
+}
+
+.bulletpointLft {
+  height: 90px;
+  width: 275px;
+  margin-top: 10px;
+  margin-left: 187px;
+}
+
+.storytxt {
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2.15em;
+  width: 500px;
+  position: relative;
+  left: 45px;
+  top: 25px;
+}

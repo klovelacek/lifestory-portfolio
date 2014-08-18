@@ -1,0 +1,38 @@
+@mixin sectionWrap {
+  width: 100%;
+  height: 1260px;
+  margin: 0 auto;
+}
+
+@mixin section {
+  width: 100%;
+  height: 1350px;
+  margin: 0 auto;
+}
+
+@mixin verticleDash {
+  background-image: url("/images/dashline-bg.svg"),
+  url("/images/dashline-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center top 220px, center bottom;
+}
+
+@mixin bulletpointRt {
+  font-family: 'Roboto Condensed' Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: #EFEFE7;
+  padding: 4px 4px 4px 12px;
+  margin-left: 20px;
+}
+
+@mixin bulletpointLft {
+  font-family: 'Roboto Condensed' Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: #EFEFE7;
+  padding: 4px 4px 4px 12px;
+  margin-top: 3px;
+}

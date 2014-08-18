@@ -1,0 +1,80 @@
+footer {
+  width: 100%;
+  margin: 0 auto;
+  height: 47px;
+  position: relative;
+}
+
+.footsilo {
+  width: 404px;
+  position: relative;
+  top: -105px;
+  overflow: hidden;
+  z-index: 90;
+  left: 283px;
+}
+.silokent {
+  height: 50px;
+}
+
+.ctaH2 {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 437.45%;
+  color: rgba(204, 44, 4, 0.98);
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1em;
+  left: -4px;
+  top: 27px;
+  position: absolute;
+  z-index: 44;
+}
+
+.ctaH1 {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 981%;
+  color: rgba(204, 44, 4, 0.98);
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1em;
+  top: 14px;
+  position: absolute;
+  left: -8px;
+  z-index: 44;
+}
+.footerbg {
+  height: 430px;
+  width: 100%;
+  position: relative;
+  top: 7px;
+  background-color: #EFEFE7;
+  z-index: -10;
+}
+
+hr {
+  position: relative;
+  top: 354px;
+  color: #69522D;
+  width: 965px;
+}
+
+.contactme {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 28.5px;
+  color: #69522D;
+  letter-spacing: .0983em;
+  position: relative;
+  top: 355px;
+  overflow: hidden;
+  p {
+    width: 669px;
+  }
+}
+.socialicon  {
+  position: relative;
+  top: 2px;
+  margin: 0px 15px 0px 15px;
+
+  width: 25px;
+}

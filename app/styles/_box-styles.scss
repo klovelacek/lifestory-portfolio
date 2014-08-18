@@ -1,0 +1,137 @@
+.storyBox1 {
+  height: 222px;
+  width: 595px;
+  background-color: #EFEFE7;
+  margin: 0 auto;
+  border-right: 3px solid #333;
+  border-left: 3px solid #333;
+  background-image: url("/images/textBoxTop.png"),
+  url("/images/textBoxBottom.png");
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+  padding-top: 26px;
+}
+
+.tboxtop {
+  padding-top: -12px;
+}
+
+.tboxbottom {
+  padding-top: 35px;
+}
+
+.storytext {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.picturebox {
+  height: 646px;
+  width: 965px;
+  position: relative;
+  top: 5px;
+  background-color: #EFEFE7;
+  border-right: 3px solid #333;
+  border-left: 3px solid #333;
+  background-image: url("/images/mainBoxTop.png"),
+  url("/images/mainBoxBottom.png");
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.picturebox2 {
+  height: 646px;
+  width: 965px;
+  overflow: hidden;
+  position: relative;
+  top: 254px;
+  background-color: #EFEFE7;
+  border-right: 3px solid #333;
+  border-left: 3px solid #333;
+  background-image: url("/images/mainBoxTop.png"),
+  url("/images/mainBoxBottom.png");
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+}
+
+.picturebox3 {
+  height: 646px;
+  width: 965px;
+  overflow: hidden;
+  position: relative;
+  top: 254px;
+  background-color: #EFEFE7;
+  border-right: 3px solid #333;
+  border-left: 3px solid #333;
+  background-image: url("/images/mainBoxTop.png"),
+  url("/images/mainBoxBottom.png");
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+}
+
+//--------STYLES FOR SECTIONS AND TEXT BOXES -------//
+
+.dropcap {
+  float: left;
+  font-family: 'Vollkorn', serif;
+  font-size: 89px;
+  padding-right: 10px;
+  line-height: 93px;
+  height: 70px;
+  font-weight: 700;
+  position: relative;
+  top: -2px;
+}
+
+.section1, .section7, .section10 {
+  .dropcap {
+    color: #DB6327;
+  }
+}
+
+.section2, .section4, .section8  {
+  .dropcap {
+    color: #75895D;
+  }
+}
+
+.section3, .section5, .section9   {
+  .dropcap {
+    color: #377A91;
+  }
+}
+
+.section6, .section11, .section14 {
+  .dropcap {
+    color: #DB9627;
+  }
+}
+
+.section12 {
+  .dropcap {
+    color: purple;
+  }
+}
+
+.section13 {
+  .dropcap {
+    color: purple;
+  }
+}
+
+
+
+//--------STYLES FOR SECTIONS AND TEXT BOXES -------//
+
+.section1, .section2, .section3, .section4, .section5,
+.section6, .section7, .section8, .section9, .section10,
+.section11, .section12, .section13, .section14 {
+  @include sectionWrap;
+  @include section;
+  @include verticleDash;
+}
