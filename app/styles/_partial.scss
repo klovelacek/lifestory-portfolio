@@ -11,8 +11,8 @@
 }
 
 @mixin verticleDash {
-  background-image: url("/images/dashline-bg.png"),
-  url("/images/dashline-bg.png");
+  background-image: url("../images/dashline-bg.png"),
+  url("../images/dashline-bg.png");
   background-repeat: no-repeat;
   background-position: center top 220px, center bottom;
 }
