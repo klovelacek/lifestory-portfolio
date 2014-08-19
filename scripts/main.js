@@ -38,14 +38,13 @@ $(function($) {
 					.setTween(tweenFour)
 					.addTo(controller);
 
-		//SCENE FIVE 
+		//SCENE FIVE MARTIN AGENCY ---- building tween in from left, logo from bottom
 
-			var tweenFive = TweenMax.to("#animate5a", 0.75, {bottom: -80});
+			var tweenFive = TweenMax.to("#animate5a", 0.75, {left: -80});
 			// build scene
 			var sceneFive = new ScrollScene({triggerElement: "#trigger5"})
 					.setTween(tweenFive)
 					.addTo(controller);
-
 
 
 			// PORTFOLIO CAROUSEL
