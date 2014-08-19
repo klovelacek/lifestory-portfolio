@@ -30,7 +30,7 @@
   }
 }
 
-// ============= Sceen Two ============== //
+// ============= Sceen Two Draw Me ============== //
 
 .drawMe {
   width: 750px;
@@ -44,16 +44,16 @@
   bottom: 1500px;
 }
 
-// ============= Sceen Three ============== //
+// ============= Sceen Three VCU ============== //
 
 .vculayer1 {
   height: 300px;
   position: relative;
   top: 240px;
-  left: 425px;
+  left: 125px;
   z-index: 3;
   .vculogo {
-    width: 100px;
+    width: 700px;
   }
 }
 
@@ -67,23 +67,18 @@
   }
 }
 
-// ============= Sceen Four ============== //
+// ============= Sceen Four Meet Jaiver ============== //
 
+#animate4 {
+  position: relative;
+  top: 0px;
+  left: 850px;
+}
 
-
-#wipe {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(-100%);
-    width: 100%;
-    z-index: 4;
-    .ustogether {
-      width: 692px;
-      margin-top: 77px;
-      margin-left: 136px;
-  }
+.ustogether {
+  width: 692px;
+  margin-top: 77px;
+  margin-left: 136px;
 }
 
 .kandj2 {
@@ -127,32 +122,155 @@
   }
 }
 
-// ============= Sceen Four ============== //
+// ============= Scene Five Martin Ag ============== //
 
-.martin2, .martin3 {
-  height: 300px;
+.ma-logo {
+  position: absolute;
+  top: 180px;
+  left: 367px;
+  opacity: .75;
 }
 
-.martin4, .martin5, .martin6 {
-  width: 150px;
+.ma-building {
+   margin-top: 56px;
+   margin-left: 22px;
+   width: 890px;
 }
 
-.folio-1a {
-  height: 42%;
+// ============= Scene Six Mac Talk ============== //
+
+.hello {
+  position: absolute;
+  left: 405px;
+  top: -25px;
+  p {
+    font-family: 'Oswald' Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 3.55em;
+    line-height: 1.25em;
+  }
 }
 
-.folio-1b, .folio-1e {
-  height: 48%;
+.apple3 {
+  position: relative;
+  width: 300px;
+  margin-left: 35px;
+  top: -20px;
 }
 
-.folio-1c, .folio-1d {
-  height: 35%;
+.apple1, .apple2 {
+  position: absolute;
+  width: 125px;
+  top: 220px;
+  img {
+    width: 150px;
+  }
 }
 
-.kentsharon1,
-.kentsharon2,
-.kentsharon3 {
-  height: 48%;
+.apple1 {
+  left: 42px;
+}
+.apple2 {
+  left: 235px;
+  transform: scaleX(-1);
+}
+
+.hello {
+  left: 538px;
+  top: -18px;
+  text-align: center;
+}
+
+.talk {
+  position: absolute;
+  width: 405px;
+  left: 35px;
+  top: 98px;
+  p {
+    font-family: 'Oswald' Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 2.75em;
+    line-height: 1.15em;
+    text-align: center;
+  }
+}
+
+// ============= Scene Seven Jaiver Dies ============== //
+
+.storytxt {
+  position: absolute;
+  top: 5px;
+}
+
+.umbrella {
+  position: absolute;
+  top: 120px;
+  left: 293px;
+  img {
+  width: 600px;
+  }
+}
+
+// ============= Scene Eight Freelance Carousel ============== //
+
+.image-shown {
+  display: inline-block;
+}
+
+.image-hidden {
+  display: none;
+}
+
+.carousel-inner {
+  width: 960px;
+  height: 650px;
+  position: relative;
+  float: left;
+  img {
+    width: 100%;
+  }
+}
+.carousel-outer {
+  position: absolute;
+  top: 5px;
+}
+
+.previousLink, .nextLink {
+  position: absolute;
+  top: 295px;
+  z-index: 62;
+  font-size: 2.25em;
+  color: #EFEFE7;
+  opacity: .75;
+}
+
+.previousLink {
+  left: 6px;
+}
+.nextLink {
+  left: 937px;
+}
+
+// ============= Scene Nine Meet Sharon ============== //
+
+.frame {
+  position: absolute;
+  left: 92px;
+  top: 11px;
+  z-index: 3;
+  img {
+    height: 620px;
+  }
+}
+
+.ksphoto {
+  position: absolute;
+  top: 22px;
+  left: 131px;
+  z-index: 1;
+  img {
+    width: 700px;
+  }
 }
 
 .folio2a, .folio2b, .folio2c {

@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>final web</title>
+    <title>Life Story Portfolio</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css styles/vendor.css -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- bower:css -->
-    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css"/>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -25,7 +26,7 @@
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/ScrollMagic/js/jquery.scrollmagic.js"></script>
-    <script src="../bower_components/gsap/src/uncompressed/TweenMax.js"> </script>
+    <script src="../bower_components/gsap/src/uncompressed/TweenMax.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
   </head>
@@ -137,6 +138,8 @@
        </div>
     </section>
 
+    <div id="trigger4" class="spacer s1"></div>
+
        <!-- This is where section 4 Kent & Jaiver -->
 
     <section class="section4">
@@ -148,13 +151,18 @@
         </div>
       </div>
 
-    <div id="trigger4" class="spacer s4"></div>
+
+    <div class="spacer s1"></div>
+
       <div class="picturebox2">
+
+          <div id="animate4">
             <div id="wipe" class="kandj1">
               <img class="ustogether" src="images/kandj.jpg" alt="Kent and Jaiver">
             </div>
+          </div>
 
-            <div class="kandj2">
+            <!-- <div class="kandj2">
               <img class="rings" src="images/wedRings.png" alt="line drawing of wedding rings">
             </div>
 
@@ -164,12 +172,17 @@
 
             <div class="kandj4">
               <img class="paint" src="images/kentPaints.jpg" alt="picure of Kent painting a backdrop">
-            </div>
+            </div> -->
 
           </div>
       </section>
 
+      <div class="spacer s1"></div>
+
        <!-- This is where section 5 Martin Agency -->
+
+      <div id="trigger5" class="spacer s2"></div>
+      <div class="spacer s2"></div>
 
       <section class="section5">
         <div class="storyBox1">
@@ -179,28 +192,27 @@
             </p>
           </div>
         </div>
+
         <div class="picturebox2">
-          <div class="martin1">
+
+          <div id="animate5b">
+            <div class="ma-logo">
+              <img class="malogo" src="images/martinlogo.png" alt=" Martin Agency logo">
+            </div>
+          </div>
+
+          <div id="animate5a">
             <img class="ma-building" src="images/martin-silo.png" alt="illustration of old Martin building">
           </div>
-          <div class="martin2">
-            <img class="kentsilo" src="images/kent-silo.png" alt="silo of Kent">
-          </div>
-          <div class="martin3">
-            <img class="deptphoto" src="images/martin-photo.jpg" alt="Photo of Creative Department from the mid 80s">
-          </div>
-          <div class="martin4">
-            <img class="malogo" src="images/martinlogo.png" alt=" Martin Agency logo">
-          </div>
-          <div class="martin5">
-            <img class="mblogo" src="images/mercedeslogo.png" alt="Mercedes-Benz logo">
-          </div>
-          <div class="martin6">
-            <img class="martin6" src="images/mobilOne-logo.png" alt=" MobilOne logo">
-          </div>
+          <!-- <img class="kentsilo" src="images/kent-silo.png" alt="silo of Kent">
+          <img class="deptphoto" src="images/martin-photo.jpg" alt="Photo of Creative Department from the mid 80s">
+
+          <img class="mblogo" src="images/mercedeslogo.png" alt="Mercedes-Benz logo">
+          <img class="martin6" src="images/mobilOne-logo.png" alt=" MobilOne logo"> -->
+
         </div>
       </section>
-
+      <div class="spacer s2"></div>
        <!-- This is where section 6 Intro to Macs -->
 
       <section class="section6">
@@ -212,9 +224,23 @@
           </div>
         </div>
           <div class="picturebox2">
-            <img class="apple1" src="images/mac-.png" alt="">
-            <img class="apple2" src="images/mac!.png" alt="">
-            <img class="apple3" src="images/macIcon.png" alt="">
+
+              <div class="talk">
+                <p class="talktext">In 1985 there was talk<br>of computers coming to print production.</p>
+
+                <div class="apple1" >
+                  <img src="images/mac-.png" alt="Apple computer icon">
+                </div>
+
+                <div class="apple2">
+                  <img src="images/mac!.png" alt="Apple computer icon">
+                </div>
+              </div>
+
+              <div class="hello">
+                <p class="hellotext">Hello, I'm here! <br>Its 1986.</p>
+                <img class="apple3" src="images/macIcon.png" alt="Large Apple computer icon">
+              </div>
           </div>
       </section>
 
@@ -230,10 +256,14 @@
           </div>
         </div>
         <div class="picturebox2">
-          <p class="storytxt">
-            At 31 years old, Jaiver died suddenly of complications from a stroke.
-          </p>
-          <img src="images/rain-umbrella.png" alt="">
+
+          <div class="storytxt">
+            <p>At 31 years old, Jaiver died suddenly of complications from a stroke.</p>
+          </div>
+
+          <div class="umbrella">
+            <img src="images/rain-umbrella.png" alt="Illustration of umbrella in the rain.">
+          </div>
         </div>
       </section>
 
@@ -248,15 +278,21 @@
           </div>
         </div>
           <div class="picturebox2">
-            <img class="folio-1a" src="images/compass.jpg" alt="">
-            <img class="folio-1b" src="images/riggsWard.jpg" alt="">
-            <img class="folio-1c" src="images/johnson1.jpg" alt="">
-            <img class="folio-1d" src="images/johnson2.jpg" alt="">
-            <img class="folio-1e" src="images/coc_sprd1.jpg" alt="">
-            <img class="folio2a" src="images/bsa1.jpg" alt="">
-            <img class="folio2b"  src="images/bsa2.jpg" alt="">
-            <img class="folio2c"  src="images/bsa1.jpg" alt="">
+            <div class="carousel-outer">
+              <a class="previousLink" href="#"><i class="fa fa-angle-left"></i></a>
+                <div class="carousel-inner">
+                <img class="image-shown" src="images/compass.jpg" alt="">
+                <img class="image-hidden" src="images/riggsWard.jpg" alt="">
+                <img class="image-hidden" src="images/johnson1.jpg" alt="">
+                <img class="image-hidden" src="images/johnson2.jpg" alt="">
+                <img class="image-hidden" src="images/coc_sprd1.jpg" alt="">
+                <img class="image-hidden" src="images/bsa1.jpg" alt="">
+                <img class="image-hidden"  src="images/bsa2.jpg" alt="">
+                <img class="image-hidden"  src="images/bsa1.jpg" alt="">
+              </div>
+            <a class="nextLink" href="#"><i class="fa fa-angle-right"></i></a>
           </div>
+        </div>
       </section>
 
     <!-- This is where section 9 Sharon is there for me -->
@@ -270,9 +306,13 @@
           </div>
        </div>
          <div class="picturebox2">
-           <img class="kentsharon1" src="images/ring2.png" alt="">
-           <img class="kentsharon2" src="images/k+sframe.png" alt="">
-           <img class="kentsharon3" src="images/kentSharon.png" alt="">
+
+           <div class="frame">
+             <img class="kentsharon2" src="images/k+sframe.png" alt="picture frame">
+           </div>
+           <div class="ksphoto">
+             <img class="kentsharon3" src="images/kentSharon.png" alt="Kent and Sharon">
+           </div>
          </div>
       </section>
 
@@ -287,9 +327,15 @@
           </div>
        </div>
          <div class="picturebox2">
-           <img class="folio3a" src="images/camry_sprd1.jpg" alt="">
-           <img class="folio3b" src="images/camry_sprd2.jpg" alt="">
-           <img class="folio3c" src="images/matrix_pos1.jpg" alt="">
+           <div class="carousel-outer">
+             <a class="previousLink" href="#"><i class="fa fa-angle-left"></i></a>
+               <div class="carousel-inner">
+                 <img class="folio3a" src="images/camry_sprd1.jpg" alt="Toyota Camry magazine ad">
+                 <img class="folio3b" src="images/camry_sprd2.jpg" alt="Toyota Camry magazine ad">
+                 <img class="folio3c" src="images/matrix_pos1.jpg" alt="Toyota Matrix POS Poster">
+               </div>
+             <a class="nextLink" href="#"><i class="fa fa-angle-right"></i></a>
+           </div>
          </div>
       </section>
 
@@ -299,7 +345,7 @@
        <div class="storyBox1">
          <div>
            <p class="storytext">
-           <span class="dropcap">F</span>oster parenting was a very rewarding experience for Sharon and I. But it came to a point that we couldn't see going through life without our little girl, so we adpted her.
+           <span class="dropcap">M</span>ore than half a million American children are in foster care, taken away when their families were in crisis. We wanted to help by becoming foster parents. It was a rewarding experience for Sharon and I. But there came a point when we couldn't imagine life without our little girl, so we adopted her.
           </p>
         </div>
        </div>
@@ -320,9 +366,15 @@
         </div>
        </div>
          <div class="picturebox2">
-           <img class="folio4a" src="images/mentoh1.jpg" alt="">
-           <img class="folio4b" src="images/bgclub.jpg" alt="">
-           <img class="folio4c" src="images/handbox.jpg" alt="">
+           <div class="carousel-outer">
+             <a class="previousLink" href="#"><i class="fa fa-angle-left"></i></a>
+               <div class="carousel-inner">
+                 <img class="folio4a" src="images/mentoh1.jpg" alt="Series of email blasts">
+                 <img class="folio4b" src="images/bgclub.jpg" alt="Boys and Girls Club web portal mock up">
+                 <img class="folio4c" src="images/handbox.jpg" alt="Handmade box/promotional">
+               </div>
+             <a class="nextLink" href="#"><i class="fa fa-angle-right"></i></a>
+           </div>
          </div>
       </section>
 
@@ -332,12 +384,13 @@
        <div class="storyBox1">
          <div>
            <p class="storytext">
-             <span class="dropcap">W</span>ith the economic crisis in full effect and no jobs to be found, I began to think about ways to make myself more marketable. When one day I heard a radio broadcast of an interview with (Eric?) from The Iron Yard Academy.
+             <span class="dropcap">W</span>ith the economic crisis in full effect and no jobs to be found, making myself more marketable was key. When one day I heard a radio broadcast of an interview with (Eric?) from The Iron Yard Academy.
             </p>
           </div>
          </div>
          <div class="picturebox2">
-           <img src="images/boombox.png" alt="">
+           <div></div>
+           <img src="images/boombox.png" alt="Illustration of a boombox.">
          </div>
       </section>
 
@@ -377,6 +430,7 @@
 
 <!-- build:js scripts/main.js -->
       <script src="scripts/main.js"></script>
+      <script src="../scripts/js/jquery.serialScroll.min.js"></script>
       <!-- endbuild -->
   </body>
 </html>
