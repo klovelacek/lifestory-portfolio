@@ -76,9 +76,9 @@
 }
 
 .ustogether {
-  width: 692px;
-  margin-top: 77px;
-  margin-left: 136px;
+  width: 755px;
+  margin-top: 50px;
+  margin-left: 107px;
 }
 
 .kandj2 {
@@ -197,17 +197,25 @@
 
 // ============= Scene Seven Jaiver Dies ============== //
 
-.storytxt {
+.storytxt7 {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 2.45em;
+  line-height: 1.25em;
+  width: 500px;
   position: absolute;
-  top: 5px;
+  top: 230px;
+  color: #c7c6c6;
+  left: 74px;
+  z-index: 26;
 }
 
 .umbrella {
   position: absolute;
-  top: 120px;
-  left: 293px;
+  top: 49px;
+  left: 238px;
   img {
-  width: 600px;
+  width: 680px;
   }
 }
 
@@ -230,6 +238,7 @@
     width: 100%;
   }
 }
+
 .carousel-outer {
   position: absolute;
   top: 5px;
@@ -273,19 +282,86 @@
   }
 }
 
-.folio2a, .folio2b, .folio2c {
-  width: 475px;
-}
+// ============= Scene Ten Saatchi Carousel (see scene 8) ============== //
 
-.folio3a, .folio3b, .folio3c
-.folio4a, .folio4b, .folio4c {
-  width: 475px;
-}
+
+// ============= Scene Eleven Family Pics ============== //
 
 .amari1, .amari2 {
   width: 960px;
 }
 
-.folio5a, .folio5b {
-  width: 400px;
+// ============= Scene Twelve Freelance Carousel ============== //
+
+
+// ============= Scene Thirteen Boombox ============== //
+.bbox {
+  position: absolute;
+  top: 185px;
+  left: 139px;
+  img {
+    width: 636px;
+  }
+}
+
+.boomtype {
+  position: absolute;
+  top: -5px;
+  left: 91px;
+  font-family: 'Oswald' Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 3.8em;
+  color: #377A91;
+}
+
+.tiya {
+  position: absolute;
+  top: 21px;
+  left: 45px;
+  font-family: 'Roboto Condensed' Helvetica sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+
+.bubble {
+  position: absolute;
+  top: 259px;
+  left: 492px;
+  z-index: 25;
+  img{
+    width: 354px;
+  }
+}
+
+// ============= Scene Thirteen Boombox ============== //
+
+.folio5a {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 411px;
+}
+
+.folio5b {
+  position: absolute;
+  top: 23px;
+  left: 453px;
+  width: 488px;
+}
+
+.folio5c {
+  position: absolute;
+  top: 337px;
+  left: 453px;
+  width: 143px;
+}
+
+.folio5d {
+  position: absolute;
+  top: 341px;
+  left: 621px;
+  width: 143px;
 }
