@@ -1,12 +1,15 @@
  // Bourbon & Neat
-@import '../../bower_components/bourbon/dist/bourbon';
-@import '../../bower_components/neat/app/assets/stylesheets/neat';
+@import "../../bower_components/bourbon/dist/bourbon";
+@import "../../bower_components/neat/app/assets/stylesheets/neat";
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300|Roboto+Condensed:400,700|Roboto:400,500,700|@import|Vollkorn:400,700);
-@import '_partial.scss';
-@import '_box-styles.scss';
-@import '_images.scss';
-@import '_footer.scss';
-@import '_animate.scss';
+@import "_partial.scss";
+@import "_box-styles.scss";
+@import "_footer.scss";
+@import "_sections1-4.scss";
+@import "_sections5-7.scss";
+@import "_sections8-12.scss";
+@import "_sections13-14.scss";
+
 // Custom Styles
 
 body {

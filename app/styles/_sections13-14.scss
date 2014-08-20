@@ -1,0 +1,71 @@
+// ============= Scene Thirteen Boombox ============== //
+.bbox {
+  position: absolute;
+  top: 185px;
+  left: 139px;
+  img {
+    width: 636px;
+  }
+}
+
+.boomtype {
+  position: absolute;
+  top: -5px;
+  left: 91px;
+  font-family: 'Oswald' Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 3.8em;
+  color: #377A91;
+}
+
+.tiya {
+  position: absolute;
+  top: 21px;
+  left: 45px;
+  font-family: 'Roboto Condensed' Helvetica sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+
+.bubble {
+  position: absolute;
+  top: 259px;
+  left: 492px;
+  z-index: 25;
+  img{
+    width: 354px;
+  }
+}
+
+// ============= Scene Thirteen Boombox ============== //
+
+.folio5a {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 411px;
+}
+
+.folio5b {
+  position: absolute;
+  top: 23px;
+  left: 453px;
+  width: 488px;
+}
+
+.folio5c {
+  position: absolute;
+  top: 337px;
+  left: 453px;
+  width: 143px;
+}
+
+.folio5d {
+  position: absolute;
+  top: 341px;
+  left: 621px;
+  width: 143px;
+}

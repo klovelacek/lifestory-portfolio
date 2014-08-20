@@ -1,0 +1,87 @@
+
+// ============= Scene Eight Freelance Carousel ============== //
+
+.image-shown {
+  display: inline-block;
+}
+
+.image-hidden {
+  display: none;
+}
+
+.carousel-inner {
+  width: 960px;
+  height: 650px;
+  position: relative;
+  float: left;
+  img {
+    width: 100%;
+  }
+}
+
+.carousel-outer {
+  position: absolute;
+  top: 5px;
+}
+
+.previousLink, .nextLink {
+  position: absolute;
+  top: 295px;
+  z-index: 62;
+  font-size: 2.25em;
+  color: #EFEFE7;
+  opacity: .75;
+}
+
+.previousLink {
+  left: 6px;
+}
+.nextLink {
+  left: 937px;
+}
+
+// ============= Scene Nine Meet Sharon ============== //
+
+.frame {
+  position: absolute;
+  left: 92px;
+  top: 11px;
+  z-index: 3;
+  img {
+    height: 620px;
+  }
+}
+
+.ksphoto {
+  position: absolute;
+  top: 22px;
+  left: 131px;
+  z-index: 1;
+  img {
+    width: 700px;
+  }
+}
+
+// ============= Scene Ten Saatchi Carousel (see scene 8) ============== //
+
+
+// ============= Scene Eleven Family Pics ============== //
+
+.amari1, .amari2 {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 945px;
+}
+
+.amaritype {
+  position: absolute;
+  top: 415px;
+  left: 192px;
+  font-family: 'Oswald' Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 4.8em;
+  color: #377A91;
+}
+
+// ============= Scene Twelve Freelance Carousel ============== //

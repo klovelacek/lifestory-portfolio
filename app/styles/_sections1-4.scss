@@ -1,0 +1,123 @@
+.familylayer1 {
+  width: 610px;
+  margin-top: 9px;
+  overflow: hidden;
+  .family1 {
+    width: 620px;
+  }
+}
+
+#animate1 {
+  position: relative;
+  top: -891px;
+  left: 965px;
+}
+
+.familylayer2 {
+  width: 385px;
+  overflow: hidden;
+  .family2 {
+    width: 422px;
+  }
+}
+
+.familylayer3 {
+  margin-top: 3px;
+  width: 385px;
+  overflow: hidden;
+  .family3 {
+    width: 387px;
+  }
+}
+
+// ============= Sceen Two Draw Me ============== //
+
+.drawMe {
+  width: 750px;
+  position: relative;
+  top: -42px;
+  left: 115px;
+}
+
+#animate2 {
+  position: relative;
+  bottom: 1500px;
+}
+
+// ============= Sceen Three VCU ============== //
+
+.vculayer1 {
+  height: 300px;
+  position: relative;
+  top: 240px;
+  left: 125px;
+  z-index: 3;
+  .vculogo {
+    width: 700px;
+  }
+}
+
+.vculayer2 {
+  width: 945px;
+  position: relative;
+  top: -293px;
+  .vcucommons {
+    width: 963px;
+    opacity: .25;
+  }
+}
+
+// ============= Sceen Four Meet Jaiver ============== //
+
+#animate4 {
+  position: relative;
+  top: 0px;
+  left: 850px;
+}
+
+.ustogether {
+  width: 755px;
+  margin-top: 50px;
+  margin-left: 107px;
+}
+
+.kandj2 {
+  height: 100%;
+  position: absolute;
+  top: 227px;
+  left: 533px;
+  width: 100%;
+  z-index: 1;
+  .rings {
+    width: 300px;
+    margin-left: -109px;
+  }
+}
+
+.kandj3 {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 2;
+  .bible {
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+  }
+}
+
+.kandj4 {
+  height: 100%;
+  position: absolute;
+  top: 9px;
+  left:5px;
+  z-index: 0;
+  width: 100%;
+  .paint {
+    width: 600px;
+    margin-top: 70px;
+    margin-left: 150px;
+  }
+}
