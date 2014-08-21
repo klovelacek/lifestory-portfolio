@@ -1,19 +1,46 @@
-// ============= Scene Five Martin Ag ============== //
+// ============= Scene Five Martin Ag  Carousel ============== //
 
-.ma-logo {
+.image-shown0 {
+  display: inline-block;
+}
+
+.image-hidden0 {
+  display: none;
+}
+
+.carousel-inner0 {
+  width: 960px;
+  height: 650px;
+  position: relative;
+  float: left;
+  img {
+    width: 100%;
+  }
+}
+
+.carousel-outer0 {
   position: absolute;
-  top: 180px;
-  left: 367px;
-  opacity: .75;
-  z-index: 3;
+  top: 5px;
 }
 
-.ma-building {
-   position: absolute;
-   top: 56px;
-   left: 29px;
-   width: 890px;
+.previousLink0, .nextLink0 {
+  position: absolute;
+  top: 295px;
+  z-index: 62;
+  font-size: 2.25em;
+  color: #EFEFE7;
+  opacity: .75;
 }
+
+.previousLink0 {
+  left: 6px;
+  color: #D6BA47;
+}
+.nextLink0 {
+  left: 937px;
+  color: #D6BA47;
+}
+
 
 // ============= Scene Six Mac Talk ============== //
 

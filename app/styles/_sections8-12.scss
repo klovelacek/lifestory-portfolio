@@ -42,24 +42,18 @@
 
 // ============= Scene Nine Meet Sharon ============== //
 
-.frame {
-  position: absolute;
-  left: 92px;
-  top: 11px;
-  z-index: 3;
-  img {
-    height: 620px;
-  }
+#animate9 {
+  position: relative;
+  top: 617px;
+  left: 104px;
 }
 
-.ksphoto {
+.kentsharon9 {
   position: absolute;
-  top: 22px;
-  left: 131px;
-  z-index: 1;
-  img {
-    width: 700px;
-  }
+  left: 0px;
+  top: 15px;
+  z-index: 3;
+  height: 613px;
 }
 
 // ============= Scene Ten Saatchi Carousel  ============== //
