@@ -21,14 +21,15 @@ $(function($) {
 
     // SCENE THREE VCU ---- fly in and scale from right
 
-		var tweenThree = {duration: 1, offset: -10};
+		var tweenThree = {duration: 3, offset: 1};
 		var elements = $(".vculayer1");
+
     // build scene
 		new ScrollScene()
   			.addTo(controller)
   			.triggerHook("onCenter")
   			.triggerElement(".vculayer1")
-  			.setTween(TweenMax.from(".vculayer1", 1, {scale: 750, ease: Back.easeOut}));
+  			.setTween(TweenMax.from(".vculayer1", 1, {scale: 2}));
 
   	//SCENE FOUR MEET JAIVER ---- tween in from right
 
