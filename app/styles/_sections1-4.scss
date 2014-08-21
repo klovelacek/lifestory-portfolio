@@ -76,9 +76,11 @@
 }
 
 .ustogether {
+  position: absolute;
   width: 755px;
-  margin-top: 50px;
-  margin-left: 107px;
+  top: 50px;
+  left: 107px;
+  z-index: 1;
 }
 
 .kandj2 {

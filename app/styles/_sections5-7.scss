@@ -5,11 +5,13 @@
   top: 180px;
   left: 367px;
   opacity: .75;
+  z-index: 3;
 }
 
 .ma-building {
-   margin-top: 56px;
-   margin-left: 22px;
+   position: absolute;
+   top: 56px;
+   left: 29px;
    width: 890px;
 }
 

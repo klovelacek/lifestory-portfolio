@@ -59,23 +59,8 @@
   background-repeat: no-repeat;
 }
 
-.picturebox3 {
-  height: 646px;
-  width: 965px;
-  overflow: hidden;
-  position: relative;
-  top: 254px;
-  background-color: #EFEFE7;
-  border-right: 3px solid #333;
-  border-left: 3px solid #333;
-  background-image: url("../images/mainBoxTop.png"),
-  url("../images/mainBosBottom.png");
-  background-position: center top, center bottom;
-  background-repeat: no-repeat;
-}
-
 .picturebox2-7 {
-  @include picturebox2-7
+  @include picturebox2-7;
 }
 //--------STYLES FOR SECTIONS AND TEXT BOXES -------//
 

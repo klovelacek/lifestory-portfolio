@@ -62,16 +62,62 @@
   }
 }
 
-// ============= Scene Ten Saatchi Carousel (see scene 8) ============== //
+// ============= Scene Ten Saatchi Carousel  ============== //
+
+.image-shown2 {
+  display: inline-block;
+}
+
+.image-hidden2 {
+  display: none;
+}
+
+.carousel-inner2 {
+  width: 960px;
+  height: 650px;
+  position: relative;
+  float: left;
+  img {
+    width: 100%;
+  }
+}
+
+.carousel-outer2 {
+  position: absolute;
+  top: 5px;
+}
+
+.previousLink2, .nextLink2 {
+  position: absolute;
+  top: 295px;
+  z-index: 62;
+  font-size: 2.25em;
+  color: #EFEFE7;
+  opacity: .75;
+}
+
+.previousLink2 {
+  left: 6px;
+}
+.nextLink2 {
+  left: 937px;
+}
 
 
 // ============= Scene Eleven Family Pics ============== //
 
 .amari1, .amari2 {
   position: absolute;
-  top: 20px;
-  left: 100px;
   width: 945px;
+  left: 6px;
+}
+
+.amari1 {
+  top: 20px;
+}
+
+.amari2 {
+  top: 289px;
 }
 
 .amaritype {
@@ -85,3 +131,42 @@
 }
 
 // ============= Scene Twelve Freelance Carousel ============== //
+
+.image-shown3 {
+  display: inline-block;
+}
+
+.image-hidden3 {
+  display: none;
+}
+
+.carousel-inner3 {
+  width: 960px;
+  height: 650px;
+  position: relative;
+  float: left;
+  img {
+    width: 100%;
+  }
+}
+
+.carousel-outer3 {
+  position: absolute;
+  top: 5px;
+}
+
+.previousLink3, .nextLink3 {
+  position: absolute;
+  top: 295px;
+  z-index: 62;
+  font-size: 2.25em;
+  color: #EFEFE7;
+  opacity: .75;
+}
+
+.previousLink3 {
+  left: 6px;
+}
+.nextLink3 {
+  left: 937px;
+}
