@@ -158,6 +158,29 @@ $(".previousLink").on("click", function(e){
 			e.preventDefault();
 	})
 
+	//SECTION ELEVEN MEET AMARI ---- tween in from bottom
+
+				// Filmstrip 1
+		var tweenEleven = TweenMax.to("#animate11", 0.25, {top: 20});
+	// 			// build scene filmstrip 1
+		var sceneEleven = new ScrollScene({triggerElement: "#trigger11"})
+				.setTween(tweenEleven)
+				.addTo(controller);
+
+				// Filmstrip 2
+		var tweenElevenA = TweenMax.to("#animate11a", 1, {top: 20});
+		// 			// build scene filmstrip 2
+		var sceneElevenA = new ScrollScene({triggerElement: "#trigger11a"})
+				.setTween(tweenElevenA)
+				.addTo(controller);
+
+		// Headline text
+		var tweenElevenB = TweenMax.to("#animate11b", 1.75, {top: 20});
+		// 			// build scene Headline text
+		var sceneElevenB = new ScrollScene({triggerElement: "#trigger11b"})
+				.setTween(tweenElevenB)
+				.addTo(controller);
+
 	// PORTFOLIO CAROUSEL SECTION 12
 
 		$(".nextLink3").on("click", function(e){
@@ -193,5 +216,30 @@ $(".previousLink").on("click", function(e){
 
 				e.preventDefault();
 		})
+
+//SECTION THIRTEEN MEET THE IRON YARD ---- tweens in from three sides
+
+			// Boombox tween in from left
+	var tweenThirteen = TweenMax.to("#animate13", 0.25, {left: 20});
+// 			// build scene Boombox
+	var sceneThirteen = new ScrollScene({triggerElement: "#trigger13"})
+			.setTween(tweenThirteen)
+			.addTo(controller);
+
+			// Thought bubble tween in from right
+	var tweenThirteenA = TweenMax.to("#animate13a", 1, {left: 20});
+		// build scene filmstrip 2
+	var sceneThirteenA = new ScrollScene({triggerElement: "#trigger13a"})
+			.setTween(tweenThirteenA)
+			.addTo(controller);
+
+	// Headline text
+	var tweenThirteenB = TweenMax.to("#animate13b", 1.75, {top: 20});
+	// 			// build scene Headline text
+	var sceneThirteenB = new ScrollScene({triggerElement: "#trigger13b"})
+			.setTween(tweenThirteenB)
+			.addTo(controller);
+
+
 
 });
