@@ -29,7 +29,7 @@ $(function($) {
   			.addTo(controller)
   			.triggerHook("onCenter")
   			.triggerElement(".vculayer1")
-  			.setTween(TweenMax.from(".vculayer1", 1, {scale: 2}));
+  			.setTween(TweenMax.from(".vculayer1", 1, {scale: 5}));
 
   	//SCENE FOUR MEET JAIVER ---- tween in from right
 
